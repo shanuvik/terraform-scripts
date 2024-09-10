@@ -4,8 +4,7 @@ provider "aws"  {
 	}
 
 
-#variable "cidr_block" {}
-#variable "environment" {}
+
 
 resource "aws_vpc" "dev-vpc" {
 
