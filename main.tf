@@ -58,13 +58,6 @@ resource "aws_subnet" "dev-subnet-4" {
         }
 }
 
-resource "aws_subnet" "dev-subnet-5" {
-        vpc_id = aws_vpc.dev-vpc.id
-        cidr_block = var.subnet_cidr_block[4]
-        tags = {
-        Name = "dev"
-        }
-}
 
 output "vpcIdOutput" {
 
